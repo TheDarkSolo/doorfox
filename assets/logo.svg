@@ -9,23 +9,9 @@
   <!-- badge background -->
   <rect width="200" height="200" rx="40" fill="url(#badge)"/>
 
-  <!-- ears (also read as the door's roofline) -->
-  <polygon points="92,58 71.7,66.7 48,12" fill="#262A33"/>
-  <polygon points="108,58 128.3,66.7 152,12" fill="#262A33"/>
-
-  <!-- doorway / fox head: arched top, straight sides -->
-  <path d="M60,172 L60,95 A40,40 0 0 1 140,95 L140,172 Z" fill="#262A33"/>
-
-  <!-- eyes -->
-  <polygon points="76,80 92,76 86,92" fill="#FBEEDD"/>
-  <polygon points="124,80 108,76 114,92" fill="#FBEEDD"/>
-
-  <!-- nose -->
-  <polygon points="93,106 107,106 100,117" fill="#FBEEDD"/>
-
-  <!-- door seam -->
-  <rect x="98.5" y="122" width="3" height="46" fill="#FBEEDD"/>
-
-  <!-- door handle -->
-  <circle cx="122" cy="142" r="5" fill="#FBEEDD"/>
+  <!-- fox-tail mark, centered -->
+  <g transform="translate(42,10) scale(0.8)">
+    <path d="M62,168 C24,168 22,112 62,86 C88,69 118,66 132,38 C142,62 126,84 104,102 C82,120 66,140 62,168 Z" fill="#262A33"/>
+    <path d="M132,38 C142,62 126,84 104,102 C112,80 122,58 132,38 Z" fill="#FBEEDD"/>
+  </g>
 </svg>
