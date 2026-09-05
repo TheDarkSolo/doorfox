@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="120" alt="Doorfox logo">
+  <img src="assets/logo.svg?v=2" width="120" alt="Doorfox logo">
 </p>
 
 <h1 align="center">Doorfox</h1>
